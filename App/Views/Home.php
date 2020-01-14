@@ -9,9 +9,9 @@
 </head>
 <body>
     <p>Oh!, this is an awesome view!</p>
-    <a href="Prueba/Boton" class="btn btn-danger">Boton1</a>
-    <a href="Prueba/Boton3" class="btn btn-danger">Boton3</a>
-    <a href="Prueba/PruebaConexion" class="btn btn-danger">Probar conexión</a>
+    <a href="prueba/boton" class="btn btn-danger">Boton1</a>
+    <a href="prueba/boton3" class="btn btn-danger">Boton3</a>
+    <a href="prueba/pruebaconexion" class="btn btn-danger">Probar conexión</a>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

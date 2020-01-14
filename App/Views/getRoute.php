@@ -4,15 +4,15 @@ use System\Core\Router;
 
 /*  */
 
-Router::get('/Home');
+Router::get('/home');
 
-Router::get('/Prueba/Boton');
+Router::get('/prueba/boton');
 
-Router::get('/Prueba/Boton2');
+Router::get('/prueba/boton2');
 
-Router::get('/Prueba/PruebaConexion');
+Router::get('/prueba/pruebaconexion');
 
-Router::get('/Status/404');
+Router::get('/status/404');
 
 /*  */
 

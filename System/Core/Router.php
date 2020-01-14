@@ -65,7 +65,7 @@ class Router
         {
             if(self::fileVerify() || self::isIncluded())
             {
-                Redirect::localRedirect('Status\404');
+                Redirect::displace('status/404');
             }
         }         
     }

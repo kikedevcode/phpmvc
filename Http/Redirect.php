@@ -4,8 +4,8 @@ namespace Http;
 
 class Redirect
 {
-    public static function localRedirect($relativePath)
+    public static function displace($relativePath)
     {
-        header('Location: ' . 'http://phpmvc.local.com/' . 'App/Views/' . $relativePath . '.php');
+        header('Location: ' . 'http://phpmvc.local.com/' . $relativePath);
     }
 }
