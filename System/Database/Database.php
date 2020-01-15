@@ -8,34 +8,34 @@ class Database
 {
     public static function select($args)
     {
-        if(!argumentsExist($args))
+        if(!self::argumentsExist($args))
             throw new Exception('No arguments required');
         else
-            self::query(Database::makeSelectSentence($args));
+            self::query(Sentences::makeSelectSentence($args));
     }
 
     public static function insert($args)
     {
-        if(!argumentsExist($args))
+        if(!self::argumentsExist($args))
             throw new Exception('No arguments required');
         else
-            self::query(Database::makeInsertSentence($args));
+            self::query(Sentences::makeInsertSentence($args));
     }
 
     public static function delete($args)
     {
-        if(!argumentsExist($args))
+        if(!self::argumentsExist($args))
             throw new Exception('No arguments required');
         else
-            self::query(Database::makeDeleteSentence($args));
+            self::query(Sentences::makeDeleteSentence($args));
     }
 
     public static function update($args)
     {
-        if(!argumentsExist($args))
+        if(!self::argumentsExist($args))
             throw new Exception('No arguments required');
         else
-            self::query(Database::makeDeleteSentence($args));
+            self::query(Sentences::makeDeleteSentence($args));
     }
 
     private static function argumentsVerify($args)

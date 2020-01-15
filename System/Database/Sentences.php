@@ -66,6 +66,7 @@ class Sentences
     {
         self::$update = "UPDATE " . $args['table'];
         self::$update .= " SET " . self::updateArguments($args['arguments']);
+        
         self::$update .= " WHERE " . $args['where'];
 
         return self::$update;

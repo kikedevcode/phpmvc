@@ -16,5 +16,9 @@ Router::get('/status/404');
 
 /*  */
 
+Router::post('prueba/pruebaconexion', 'UsersController\saveUser');
+
+/*  */
+
 Router::errorVerify();
 

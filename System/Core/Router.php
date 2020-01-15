@@ -99,13 +99,16 @@ class Router
         if(self::setRelativePath() === $link)
         {
             if(class_exists('App' . '\\' . 'Controllers' . '\\' . $controllerSegmented[0], true))
-                return call_user_func('Controllers' . '\\' . $controllerSegmented[0] . '::' . $controllerSegmented[1]);
+            {
+                return call_user_func('App' . '\\' . 'Controllers' . '\\' . $controllerSegmented[0] . '::' . $controllerSegmented[1]);
+            }
+                
         }
     }
 
     private static function setController($controller)
     {
-        return explode('/', $controller);
+        return explode('\\', $controller);
     }
 
     
